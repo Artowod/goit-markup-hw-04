@@ -84,8 +84,7 @@ ul {
 }
 
 .navigation-element:hover,
-.navigation-element:focus,
-.navigation-element:active {
+.navigation-element:focus {
   color: var(--fontcolor-navigation-focus-hover);
 }
 
@@ -528,12 +527,22 @@ footer {
 .social-links-link-footer:hover .social-icon-instagram,
 .social-links-link-footer:hover .social-icon-twitter,
 .social-links-link-footer:hover .social-icon-facebook,
-.social-links-link-footer:hover .social-icon-linkedin {
+.social-links-link-footer:hover .social-icon-linkedin,
+.social-links-link:focus .social-icon-instagram,
+.social-links-link:focus .social-icon-twitter,
+.social-links-link:focus .social-icon-facebook,
+.social-links-link:focus .social-icon-linkedin,
+.social-links-link-footer:focus .social-icon-instagram,
+.social-links-link-footer:focus .social-icon-twitter,
+.social-links-link-footer:focus .social-icon-facebook,
+.social-links-link-footer:focus .social-icon-linkedin {
   fill: #ffffff;
 }
 
 .social-links-link:hover,
-.social-links-link-footer:hover {
+.social-links-link-footer:hover,
+.social-links-link:focus,
+.social-links-link-footer:focus {
   background-color: #2196f3;
 }
 
@@ -598,10 +607,17 @@ footer {
 .client-link:hover .client-3,
 .client-link:hover .client-4,
 .client-link:hover .client-5,
-.client-link:hover .client-6 {
+.client-link:hover .client-6,
+.client-link:focus .client-1,
+.client-link:focus .client-2,
+.client-link:focus .client-3,
+.client-link:focus .client-4,
+.client-link:focus .client-5,
+.client-link:focus .client-6 {
   fill: #2196f3;
 }
 
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   border-color: #2196f3;
 }
